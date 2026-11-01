@@ -1,7 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
-        <title>Scripts</title>
+        <meta charset="UTF-8" />
+
+        <script src="task-Module/src/scripts/sync.js"></script>
+
+        <script defer src="task-Module/src/scripts/defer.js"></script>
+
+        <script async src="task-Module/src/scripts/async.js"></script>
     </head>
-    <body></body>
+    <body>
+        <script>
+            document.body.append('inline');
+        </script>
+
+        <script src="scripts/sync.js"></script>
+
+        <script async src="scripts/async.js"></script>
+
+        <script defer src="scripts/defer.js"></script>
+    </body>
 </html>
